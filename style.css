@@ -1,0 +1,180 @@
+/* universal selector*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*My common class*/
+.container{
+    max-width: 1350px;/*suppose*/
+    margin: auto;
+}
+.my-btn{
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 600px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    background-color: white;
+    max-width: max-content;
+}
+.my-btn-2{
+    border-radius: 8px;
+    font-weight: 600px;
+    background: rgba(0, 106, 80, 1);
+    color:rgba(255, 255, 255, 1); ;
+    padding: 12px 25px;
+}
+/*Header styling*/
+header{
+     background-color: rgba(198, 228, 214, 1);
+     margin-bottom: 20px;
+}
+/*nav: selector
+display: property
+flex: value*/
+nav{
+    display: flex;
+    /*default:row*/
+    justify-content: space-between;
+    align-items: center;
+    /*flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    padding: 10px 0px;
+}
+
+/*.bd2{
+    color: red;
+}
+#bd3{
+    color: green;
+}*/
+.link-parent{
+    display: flex;
+    gap: 22px;
+    list-style: none;
+}
+.link-parent a{
+    text-decoration: none;
+}
+
+/*Hero styling*/
+.hero-parent{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    /*background-color: rgba(198, 228, 214, 1);*/
+    /*rgb and rgba*/
+    background-image: linear-gradient(180deg,rgba(172, 152, 152, 0.5), rgba(44, 36, 36, 0.4)),url(https://media.istockphoto.com/id/2064008759/photo/woman-video-call-and-conference-or-virtual-meeting-on-screen-discussion-at-home-office.jpg?s=612x612&w=0&k=20&c=xgr7PZGrS6gCVmpKYhd1qcO8gz4aBnqx0PMfUKBhVfo=);
+    background-position: center;
+    background-size: cover;
+    border-radius: 24px;
+    align-items: center;
+    padding: 70px;
+    margin: 20px auto;
+}
+.hero-parent h2{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500px;
+}
+.hero-parent p{
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+    font-weight: 700px;
+    margin: 20px 0px;
+}
+
+/*Element behavior*/
+/*.element-behavior-parent{
+    background-color: #006a50c0;
+}
+.block-element{
+    background-color: red;
+}
+.inline-element{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    height: 120px;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+}*/
+
+/*Pillar of bangladesh*/
+.pillars-of-bangladesh-parent{
+    margin: 80px auto;    
+}
+.pillar-section-title{
+    font-weight: 700 ;
+    font-size: 40px;
+    margin-bottom: 23px;
+}
+.pillar-card-parent{
+    display: flex;
+    gap: 15px;
+    /*flex-wrap: wrap*/
+}
+.pillar-card{
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pillar-card img{
+    width: 80px;
+    height: 80px;
+}
+/*.pillar-card h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}*/
+.pillar-card p{
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/*Recent News*/
+.recent-news-header{
+    margin-bottom: 15px;
+}
+.recent-news-section h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 8px;
+}
+.recent-news-section p{
+    color: rgba(14, 14, 14, 0.7);
+}
+.recent-news-card{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 12px;
+}
+.recent-news-card:nth-child(2){
+    flex-direction: row-reverse;
+}
+.recent-news-card .satelite-img{
+    border-radius:15px ;
+    width: 408px;
+    height: 306px;
+}
+.recent-news-info-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recent-news-info-parent .al-jazeera{
+    width: 134px;
+    height: 40px;
+}
